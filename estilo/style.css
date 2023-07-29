@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: adro;
+    src: url('../fontes/idroid.otf') format('opentype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   
+    background-color: #20913cb5;
+}
+
+header{
+   background-image: linear-gradient(to left,#116a09,#16e33b);
+    width: 100%;
+   padding-top: 30px;
+   margin: auto;
+    text-align: center;
+}
+header > h1{
+    font-family: 'adro',Arial, Helvetica, sans-serif;
+} 
+nav{
+    background-image: linear-gradient(to left,#116a09,#16e33b);
+    padding: 20px;
+    box-shadow: 0px 7px 7px #000000;
+}
+
+nav > a{
+   padding: 10px;
+   border-radius: 5px;
+   text-decoration: none;
+    font-weight:bold ;
+    color: white;
+    transition-duration: 1s;
+}
+nav > a:hover {
+   background-color: #12581f;
+   color: #ffffff;
+}
+main{
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    width: 80%;
+    box-shadow: 5px 5px 3px #073012b5;
+}
+main > h1{
+    font-family: 'adro',Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family: 'adro',Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 100%;
+}
+.basico{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+ 
+iframe{
+    width: 100%;
+}
+ 
+ul{
+    background-color: #08bd298b;
+   padding: 15px;
+   list-style: inside;
+}
+   
+footer{
+    background-color: greenyellow;
+    padding: 10px;
+    text-align: center;
+    columns: 2;
+
+}
